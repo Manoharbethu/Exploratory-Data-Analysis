@@ -21,16 +21,16 @@ Proteins <br/>
 Weight <br/>
 Steps of EDA: <br/>
 Exploratory Data Analysis (EDA) is a crucial step in the data analysis process that helps you understand your dataset, identify patterns, and prepare the data for further analysis or modelling. Here are the steps typically involved in EDA: <br/>
-Data Collection: Gather your dataset from reliable sources. Ensure that you have all the necessary data to perform your analysis. <br/>
-Data Loading: Load the dataset into your analysis environment. Common tools for this step include Pandas in Python or read functions in R <br/>
-Initial Data Inspection: Use Pandas to check the first few rows of the dataset with df.head() to get an overview of the data's structure. Use df.shape to determine the number of rows and columns in the dataset. Use df.info() to get information about the data types of each column and check for missing values. <br/>
-Data Cleaning and Handling Missing Values: Identify missing values using functions like df.isnull().sum(). Decide on a strategy for handling missing values (e.g., imputation or removal) based on the nature of the data and the analysis goals. Use Pandas functions to perform data cleaning, such as dropping unnecessary columns or duplicates. <br/>
-Data Visualization: Create visualizations like scatter plots, box plots, and violin plots to explore relationships between variables. Visualize trends and patterns in the data. Use Seaborn pair plots or heatmaps for a comprehensive view of variable relationships. <br/>
-Outlier Detection: Identify potential outliers by visualizing data using box plots or other relevant techniques. Decide on an approach for handling outliers, which may include removal or transformation. <br/>
-Feature Engineering: Create new features, if necessary, based on domain knowledge or relationships observed during EDA. Perform feature transformations, such as scaling or normalization, if it improves the quality of the data. <br/>
-Hypothesis Testing (Optional): If relevant, conduct statistical tests or hypothesis tests to make data-driven conclusions about specific relationship or hypotheses. <br/>
-Documentation and Reporting: Document your findings, insights, and any actions taken during EDA. Create visualizations and reports that communicate your results effectively. <br/>
-Iterate: EDA is an iterative process. You may need to revisit previous steps as you gain more insights or encounter issues during the analysis. <br/>
+Data Collection: Gather your dataset from reliable sources. Ensure that you have all the necessary data to perform your analysis. <br/><br/>
+Data Loading: Load the dataset into your analysis environment. Common tools for this step include Pandas in Python or read functions in R <br/><br/>
+Initial Data Inspection: Use Pandas to check the first few rows of the dataset with df.head() to get an overview of the data's structure. Use df.shape to determine the number of rows and columns in the dataset. Use df.info() to get information about the data types of each column and check for missing values. <br/><br/>
+Data Cleaning and Handling Missing Values: Identify missing values using functions like df.isnull().sum(). Decide on a strategy for handling missing values (e.g., imputation or removal) based on the nature of the data and the analysis goals. Use Pandas functions to perform data cleaning, such as dropping unnecessary columns or duplicates. <br/><br/>
+Data Visualization: Create visualizations like scatter plots, box plots, and violin plots to explore relationships between variables. Visualize trends and patterns in the data. Use Seaborn pair plots or heatmaps for a comprehensive view of variable relationships. <br/><br/>
+Outlier Detection: Identify potential outliers by visualizing data using box plots or other relevant techniques. Decide on an approach for handling outliers, which may include removal or transformation. <br/><br/>
+Feature Engineering: Create new features, if necessary, based on domain knowledge or relationships observed during EDA. Perform feature transformations, such as scaling or normalization, if it improves the quality of the data. <br/><br/>
+Hypothesis Testing (Optional): If relevant, conduct statistical tests or hypothesis tests to make data-driven conclusions about specific relationship or hypotheses. <br/><br/>
+Documentation and Reporting: Document your findings, insights, and any actions taken during EDA. Create visualizations and reports that communicate your results effectively. <br/><br/>
+Iterate: EDA is an iterative process. You may need to revisit previous steps as you gain more insights or encounter issues during the analysis. <br/><br/>
 
 
 
