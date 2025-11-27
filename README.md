@@ -1,39 +1,11 @@
-# Exploratory-Data-Analysis
-McDonald's is one of the largest and most popular fast-food chains in the world. It is known for its convenient and affordable meals, but there have been concerns about the nutritional quality of its food. This report presents the results of an exploratory data analysis (EDA) of McDonald's nutrition data. The data was collected from the and includes information on the calories, fat, sugar, and other nutrients in each menu item.<br/>
-The goals of this EDA were to:<br/>
-Understand the nutritional content of McDonald's food.<br/>
-Identify any relationships between the different nutrients.<br/>
-Make recommendations for how people can make healthier choices when eating at McDonald’s.<br/>
-This project is an exploratory data analysis (EDA) of the McDonald's nutrition dataset. The goal of this project is to identify trends and patterns in the nutritional content of McDonald's food, identify healthier menu options, and make recommendations to McDonald's on how to improve the nutritional content of its food.<br/>
-The data used in this project is the McDonald's nutrition dataset. This dataset contains information on over 300+ menu items from around the world. The variables in the dataset include: <br/>
-Item <br/>
-Calories <br/>
-Calories from Fat <br/>
-Total Fat <br/>
-Saturated Fat <br/>
-Trans Fat <br/>
-Cholesterol <br/>
-Sodium <br/>
-Carbohydrates <br/>
-Fiber <br/>
-Sugars <br/>
-Proteins <br/>
-Weight <br/>
-Steps of EDA: <br/>
-Exploratory Data Analysis (EDA) is a crucial step in the data analysis process that helps you understand your dataset, identify patterns, and prepare the data for further analysis or modelling. Here are the steps typically involved in EDA: <br/>
-Data Collection: Gather your dataset from reliable sources. Ensure that you have all the necessary data to perform your analysis. <br/><br/>
-Data Loading: Load the dataset into your analysis environment. Common tools for this step include Pandas in Python or read functions in R <br/><br/>
-Initial Data Inspection: Use Pandas to check the first few rows of the dataset with df.head() to get an overview of the data's structure. Use df.shape to determine the number of rows and columns in the dataset. Use df.info() to get information about the data types of each column and check for missing values. <br/><br/>
-Data Cleaning and Handling Missing Values: Identify missing values using functions like df.isnull().sum(). Decide on a strategy for handling missing values (e.g., imputation or removal) based on the nature of the data and the analysis goals. Use Pandas functions to perform data cleaning, such as dropping unnecessary columns or duplicates. <br/><br/>
-Data Visualization: Create visualizations like scatter plots, box plots, and violin plots to explore relationships between variables. Visualize trends and patterns in the data. Use Seaborn pair plots or heatmaps for a comprehensive view of variable relationships. <br/><br/>
-Outlier Detection: Identify potential outliers by visualizing data using box plots or other relevant techniques. Decide on an approach for handling outliers, which may include removal or transformation. <br/><br/>
-Feature Engineering: Create new features, if necessary, based on domain knowledge or relationships observed during EDA. Perform feature transformations, such as scaling or normalization, if it improves the quality of the data. <br/><br/>
-Hypothesis Testing (Optional): If relevant, conduct statistical tests or hypothesis tests to make data-driven conclusions about specific relationship or hypotheses. <br/><br/>
-Documentation and Reporting: Document your findings, insights, and any actions taken during EDA. Create visualizations and reports that communicate your results effectively. <br/><br/>
-Iterate: EDA is an iterative process. You may need to revisit previous steps as you gain more insights or encounter issues during the analysis. <br/><br/>
-
-
-
-
-
-
+# 🍔 McDonald's Nutrition EDA Project Summary
+The objective of this Exploratory Data Analysis (EDA) project was to understand the nutritional content of McDonald's food, identify relationships between different nutrients, and recommend healthier choices for consumers. <br/>
+Analysis Focus: McDonald's nutrition data, examining calories, fat, sugar, and other nutrients4.
+# 💻 Technical Details and FindingsProject SetupLibraries Used: Numpy, Pandas, Matplotlib, Seaborn, and SciPy
+Dataset Overview: The initial dataset contained 328 rows and 13 columns. <br/>
+Data Cleaning: Null values (3 in 'Calories From Fat' and 3 in 'Weight') were removed. <br/>
+Key Findings from AnalysisCorrelation: There is a very strong positive linear relationship between Calories and Weight, with a correlation coefficient of 0.9928. <br/>
+General Nutrition: Overall, McDonald's food is high in calories, fat, and sugar9. Sodium intake is a significant concern for many who eat there. <br/>
+Healthier Options: Salads, grilled chicken sandwiches, and fruit smoothies are cited as healthier choices compared to burgers, fries, and milkshakes. <br/>
+Example Comparison: Among the selected items (Hamburger, Cheeseburger, McDouble), the McDouble has the highest percentage of total calories at 41.5%. <br/>
+RecommendationsMcDonald's should educate consumers about the nutritional content and offer healthier options13.For deeper analysis, the use of Machine Learning models like Decision Trees, K-means, or Natural Language Processing (NLP) is recommended14.
