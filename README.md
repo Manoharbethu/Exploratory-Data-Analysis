@@ -1,4 +1,4 @@
-# 🍔 McDonald's Nutrition EDA Project Summary
+# 🍔 McDonald's Nutrition EDA 
 The objective of this Exploratory Data Analysis (EDA) project was to understand the nutritional content of McDonald's food, identify relationships between different nutrients, and recommend healthier choices for consumers. <br/>
 Analysis Focus: McDonald's nutrition data, examining calories, fat, sugar, and other nutrients4.
 # 💻 Technical Details and FindingsProject SetupLibraries Used: Numpy, Pandas, Matplotlib, Seaborn, and SciPy
