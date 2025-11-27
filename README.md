@@ -4,5 +4,5 @@ The goals of this EDA were to:
 Understand the nutritional content of McDonald's food.
 Identify any relationships between the different nutrients.
 Make recommendations for how people can make healthier choices when eating at McDonald’s.
-<img width="4036" height="516" alt="image" src="https://github.com/user-attachments/assets/9c76791f-ac1c-44ca-ab54-f201403a7691" />
+
 
