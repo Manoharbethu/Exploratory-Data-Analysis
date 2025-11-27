@@ -20,7 +20,7 @@ This project is an exploratory data analysis (EDA) of the McDonald's nutrition d
 ##### Proteins
 ##### Weight
 ##### Steps of EDA:
-##### Exploratory Data Analysis (EDA) is a crucial step in the data analysis process that helps you understand your dataset, identify patterns, and prepare the data for further analysis or modelling. Here are the steps typically involved in EDA: 
+Exploratory Data Analysis (EDA) is a crucial step in the data analysis process that helps you understand your dataset, identify patterns, and prepare the data for further analysis or modelling. Here are the steps typically involved in EDA: 
 ##### Data Collection: Gather your dataset from reliable sources. Ensure that you have all the necessary data to perform your analysis.
 ##### Data Loading: Load the dataset into your analysis environment. Common tools for this step include Pandas in Python or read functions in R
 Initial Data Inspection: Use Pandas to check the first few rows of the dataset with df.head() to get an overview of the data's structure. Use df.shape to determine the number of rows and columns in the dataset. Use df.info() to get information about the data types of each column and check for missing values. 
